@@ -1794,7 +1794,7 @@
   });
   Object.defineProperty(WebApp, 'platform', {
     get: function () {
-      return webAppPlatform;
+      return 'ios';
     },
     enumerable: true,
   });
